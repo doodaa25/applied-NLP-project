@@ -1,27 +1,16 @@
-# Project X 
-Group members: Y, Z
+# Applied NLP Project — Comparing *War and Peace* & *Anna Karenina*
 
-This repository contains the materials for **Project X**.  
-- Presentation Slides: see [`slides/`](./slides/) folder  
-- Notebooks: see [`notebooks/`](./notebooks/) folder
-- Data: when you access correct data, place it in [`data/`](./data/) folder
-- Results: the folder [`results/`](./result/) contains our figures and tables.
-  
----
-- Read more about this project on Medium: <Medium_Article_link>
----
+This project explores linguistic patterns in two novels by Leo Tolstoy using Natural Language Processing (NLP).
 
-## 📑 Project Outline
+## 📚 Project Overview
+We analyze three dimensions of language use:
 
+1. **Frequent Words** – thematic word frequency and distinctiveness using Dunning’s G² test  
+2. **Gendered Language** – frequency and bias in male- vs female-coded terms and their collocates  
+3. **Adverbs** – stylistic comparison through adverb frequency and distinctiveness
 
----
-## 🚀 Environment Setup
+Each analysis is implemented as a Jupyter Notebook in the `notebooks/` folder.
 
-Before starting, please **fork this repository** and create a fresh Python virtual environment.  
-All required libraries are listed in `requirements.txt`.
-
-> ⚠️ If you encounter errors during `pip install`, try removing the version pinning for the failing package(s) in `requirements.txt`.  
-> On Apple M1/M2 systems you may also need to install additional system packages (the “M1 shizzle”).
 
 ---
 
@@ -74,3 +63,14 @@ Deactivate the environment when you’re done:
 ```bash
 deactivate
 ```
+
+---
+
+
+## 🧩 Discussion & Results
+*(Your Frequent Words, Gender Language, and Adverbs discussion texts go here — already written above.)*
+
+---
+
+## 🏁 Final Summary
+*(Paste the “Overall Summary and Reflection” paragraph here.)*
